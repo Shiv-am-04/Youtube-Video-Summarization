@@ -12,9 +12,9 @@ load_dotenv()
 
 groq_api_key = os.getenv('GROQ_API_KEY')
 
-img1 = Image.open(r'D:\UDEMY\GenAI\Langchain\Text Summarization\youtubeLogo.jpg')
+img1 = Image.open(r'youtubeLogo.jpg')
 
-img2 = Image.open(r'D:\UDEMY\GenAI\Langchain\Text Summarization\web.jpeg')
+img2 = Image.open(r'web.jpeg')
 
 st.set_page_config(page_title='Summarizer')
 
